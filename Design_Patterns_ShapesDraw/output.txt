@@ -1,0 +1,5 @@
+> run ShapesDraw
+The object Square1 is a red Square with an area of 25, a volume of 125, and a Perimeter of 20
+The object Square2 is a green Square with an area of 49, a volume of 343, and a Perimeter of 28
+The object Rectangle1 is a blue Rectangle with an area of 35, a volume of 245, and a Perimeter of 24
+The object Rectangle2 is a black Rectangle with an area of 70, a volume of 700, and a Perimeter of 34

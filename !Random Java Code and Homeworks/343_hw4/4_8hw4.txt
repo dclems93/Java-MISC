@@ -1,0 +1,14 @@
+4.8 :
+a.
+
+infix : ((a * b) * (c + d)) - e 
+	traversal:  (a, *, b, *, c, +, d, -, e)
+prefix:  (- (*(* a b)(+ c d)) e)
+	traversal: (- , * , * , a , b , + , c , d , e )
+postfix: ((a b *) (c d +) *) e -)
+	traversal: ( a, b, *, c, d, +, *, e, -)
+
+b. predecessor = d successor = e
+c. predecessor = * successor = +
+
+

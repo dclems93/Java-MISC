@@ -1,0 +1,20 @@
+public class Employee{
+   int wages;
+   int offleave;
+   String benefits;
+   
+   public int getWages(){
+     return this.wages;
+  }
+   
+   public int getOffleave(){
+     return this.offleave;
+   }
+   
+   public String getBenefits(){
+     return this.benefits;
+   }
+  
+  
+  
+}

@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class JacksPizza{
+  
+  public static void main(Stringp[] args){
+    Scanner userInput = new Scanner(System.in);
+    
+  }
+}

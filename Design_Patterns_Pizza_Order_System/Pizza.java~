@@ -1,0 +1,42 @@
+public abstract class Pizza{
+ private String toppingone;
+ private String toppingtwo;
+ private String toppingthree;
+ private String pizzatype;
+ private String location;
+ 
+ 
+ // a type is one of : cheese, veggie, or chicken 
+ public void setType(String type){
+  pizzatype = type; 
+ }
+ 
+ public void setLocation(String newLocation){
+   location = newLocation;
+ }
+ 
+ public void setToppingone(String topping){
+   toppingone = topping;
+ }
+ pubic String getToppingone(){
+  return toppingone; 
+ }
+ 
+ 
+ public void setToppingtwo(String topping){
+   toppingtwo = topping;
+ }
+ 
+ public String getToppingtwo(){
+  return toppingtwo; 
+ }
+ 
+ 
+ public void setToppingthree(String topping){
+   toppingthree = topping;
+ }
+ 
+ public String getToppingthree(){
+  return toppingthree; 
+ }
+}

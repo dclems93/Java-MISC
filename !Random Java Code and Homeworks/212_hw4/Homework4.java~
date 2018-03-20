@@ -1,0 +1,42 @@
+//full name:
+//user name:
+//collaborator(s): 
+
+class Homework4 {
+  
+    public static void main( String[] args) {
+	System.out.println( middle("abc") ); //should output "b"
+	System.out.println( middle("abcd") ); //should output "bc"
+	System.out.println(repeat("he", 0) ); //should output ""
+	System.out.println(repeat("he", 3) ); //should output "hehehe"
+	System.out.println(countVowels("abcde") ); //should output 2
+	System.out.println(countWords("Mary had a little lamb") ); //should output 5
+	System.out.println( reverse("wolf") ); //should output "flow"
+    }
+  
+    // P5.4
+    public static String middle(String str) {
+	return "P5.4";
+    }
+  
+    // P5.5
+    public static String repeat(String str, int n) {
+	return "P5.5";
+    }
+  
+    // P5.6
+    public static int countVowels(String str) {
+	return 0;
+    }
+
+    // P5.7
+    public static int countWords(String str) {
+	return 0;
+    }
+  
+    // P5.15
+    public static String reverse(String str) {
+	return "P5.15";
+    }
+
+}

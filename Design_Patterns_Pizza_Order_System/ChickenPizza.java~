@@ -1,0 +1,3 @@
+public class ChickenPizza extends Pizza{
+ setPrice(6);
+}

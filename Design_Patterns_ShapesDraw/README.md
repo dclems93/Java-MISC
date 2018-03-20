@@ -1,0 +1,3 @@
+# Design Patterns: Draw some Shapes
+
+This is a simple java program designed to illustrate how the use of interfaces and abstract classes in order to build a more complex and robust object. Each shape extends the abstract class GraphicsObject, which implements an Area and a Volume interface. Area and Volume are each over written by each shape, so each shape can properly report their respective areas and volumes easily.

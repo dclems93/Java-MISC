@@ -1,0 +1,55 @@
+> run EmployeeDatabase
+#########Faculty########
+NAME:       Dave Sting
+Gender:     Male
+SSN:        123456
+WAGE:       $ 9999
+Benefits:   
+Benefit 1: Annual Bonus
+Benefit 2: Health Insurance
+Benefit 3: Dental
+
+NAME:       Roger Roger
+Gender:     Male
+SSN:        123956
+WAGE:       $ 2000
+Benefits:   
+Benefit 1: Health insurance
+Benefit 2: Vision
+
+NAME:       Ashley Roger
+Gender:     Female
+SSN:        123456
+WAGE:       $ 999
+Benefits:   
+Benefit 1: Health insurance
+
+#########Faculty########
+NAME:       Billy Bob
+Gender:     Male
+SSN:        1237776
+WAGE:       $ 2500
+Degree:     High School
+Offleave:   20
+Benefits:   
+Benefit 1: Annual Bonus
+Benefit 2: Health Insurance
+Benefit 3: Dental
+
+NAME:       Macy May
+Gender:     Female
+SSN:        123956
+WAGE:       $ 1500
+Degree:     High School
+Offleave:   10
+Benefits:   
+No Benefits. This worker is disposable.
+
+NAME:       Dave Cook
+Gender:     Male
+SSN:        1244456
+WAGE:       $ 2500
+Degree:     High School
+Offleave:   20
+Benefits:   
+No Benefits. This worker is disposable.

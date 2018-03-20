@@ -1,0 +1,16 @@
+public class PizzaFactory{
+  public Pizza makePizza(String newPizzaType){
+    Pizza newPizza = null;
+    if(newPizzaType.equals("cheese")){
+      return new CheesePizza();
+    }
+    else if(newPizzaType.equals("veggie")){
+      return new VeggiePizza();
+    }
+    else if(newPizzaType.equals("chicken"){
+      return new ChickenPizza(); 
+    }
+            else return null;
+    
+            
+}

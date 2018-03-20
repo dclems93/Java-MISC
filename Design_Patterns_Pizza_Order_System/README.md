@@ -1,0 +1,3 @@
+# Design Patterns: Pizza Order System
+
+This java program is a command line only program that allows users to create a pizza to their liking. The program uses a factory design pattern in order to create the pizza object and add all of the toppings to it. After the pizza object has been created, the program will prove the object is correct by running a print method, and will then tell you the cost of the pizza (as some pizzas and toppings vary in price).

@@ -1,0 +1,24 @@
+Report p6
+Dylan Clements
+
+To test the different string matching methods, I designed a test where I created an 
+array of words that President Donald Trump has been known for using frequently and 
+I tested the 3 different methods of string traversal on this array of words.
+
+I came up with a total of 15 words, and I added the total run time of each traversal
+to a running number for each mothod, naive, KMP, and Boyer. 
+
+I reported the methods by printing the total as well as the average run time.
+
+The winner by far is the Boyer method. This is not surprising as this method
+allows the strings to skip many comparrisons, and generating the delta1 array
+is not very costly.
+
+Surprisingly, the naive method was the second lowest, with KMP coming in last. 
+I suspect this may be because our total string length is a short string, rather 
+than a longer text, such as an ebook or such. Because the KMP method requires building a KMP 
+array to reference, I hypothesize that this search method would produce much better running
+results when compared to a string that is much larger. The time it takes to generate
+the flink array would possibly make up for that time on a larger text.
+
+Overall this was one of the more interesting tests to complete of all the projects we have done.

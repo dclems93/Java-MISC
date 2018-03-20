@@ -1,0 +1,4 @@
+public class FulltimeFaculty extends Faculty{
+  this.wages = 2500;
+  
+}
